@@ -1,0 +1,11 @@
+framework module TiScanner {
+  umbrella header "TiScanner.h"
+
+  export *
+  module * { export * }
+}
+
+module TiScanner.Swift {
+    header "TiScanner-Swift.h"
+    requires objc
+}
